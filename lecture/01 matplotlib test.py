@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 # 팝업 창 활용하여 차트 시연
 # %matplotlib tk
 size = 50
-#사이즈만큰 랜덤한 데이터 생성 (정규분포: 평균0, 표준편차1)
+#사이즈만큼 랜덤한 데이터 생성 (정규분포: 평균0, 표준편차1)
 y=np.random.standard_normal(size)
 x=range(size)
 plt.plot(x,y)
